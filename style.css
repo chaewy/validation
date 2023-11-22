@@ -1,0 +1,60 @@
+
+.form {
+    width: 90%;
+    max-width: 500px;
+    padding: 50px 30px 20px;
+    background: none;
+    border-radius: 4px;
+    position: relative;
+}
+.button{
+    text-align: center;
+}
+.input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-group input {
+    flex-basis: 68%;
+    background: transparent;
+    outline: 0;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group input::placeholder {
+    font-size: 14px;
+}
+
+form button {
+    background: rgb(57, 163, 234);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin: 10px auto;
+    color: white;
+}
+.checkbox{
+    font-size: 12px;
+    color: #7e7e7e;
+}
+
+#submit-error {
+    font-size: 14px;
+    color: red;
+    text-align: center;
+}
+
+.input-group span {
+    font-size: 14px;
+    color: red;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
